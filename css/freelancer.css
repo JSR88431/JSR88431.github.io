@@ -167,8 +167,14 @@ section h2 {
   }
 }
 
+.size {
+    height: 225px;
+}
+
 header {
-    background-color: #939393;
+    background-image:url('../img/anders.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header.masthead {
@@ -183,7 +189,8 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Lato';
+  font-family: 'Raleway';
+  font-weight: 300;
 }
 
 @media (min-width: 992px) {
